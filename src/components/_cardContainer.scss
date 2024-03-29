@@ -1,0 +1,15 @@
+@import '../sass/mixin';
+
+
+.card-container{
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    @include flex-row();
+    background-image: url('https://media.licdn.com/dms/image/C4E0BAQEke_OTftxqtQ/company-logo_200_200/0/1660575300584/national_basketball_association_logo?e=2147483647&v=beta&t=Uhz3ZN1kP6bXIBjhNzG2MjreeWJxNyl8vJufO4nXECw');
+    background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 2rem;
+  
+
+}

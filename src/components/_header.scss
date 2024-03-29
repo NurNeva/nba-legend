@@ -1,0 +1,13 @@
+@import "../sass/mixin";
+
+.header-container {
+  @include flex-column;
+  width: 80%;
+  margin: 50px auto;
+
+  input {
+    width: 60%;
+    margin: auto;
+    padding: 0.3rem 1rem;
+  }
+}
